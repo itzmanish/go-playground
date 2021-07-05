@@ -1,4 +1,4 @@
-module github.com/itzmanish/play
+module github.com/itzmanish/go-playground
 
 go 1.16
 
