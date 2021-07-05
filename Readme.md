@@ -1,5 +1,5 @@
 # Playground
-[![Go](https://github.com/itzmanish/go-playground/actions/workflows/go.yml/badge.svg)](https://github.com/itzmanish/go-playground/actions/workflows/go.yml)
+[![Go](https://github.com/itzmanish/go-playground/actions/workflows/go.yml/badge.svg)](https://github.com/itzmanish/go-playground/actions/workflows/go.yml) [![Go Report Card](https://goreportcard.com/badge/github.com/itzmanish/go-playground)](https://goreportcard.com/report/github.com/itzmanish/go-playground)
 
 **This is playground for some random problem that I face in day to day work or anywhere.**
 
