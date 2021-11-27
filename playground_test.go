@@ -1,10 +1,10 @@
-package anagram
+package playground
 
 import (
 	"fmt"
 	"testing"
 
-	"github.com/magiconair/properties/assert"
+	"github.com/stretchr/testify/assert"
 )
 
 func TestFindAnagram(t *testing.T) {
@@ -35,4 +35,9 @@ func TestFindAnagram(t *testing.T) {
 			assert.Equal(t, out, test.output)
 		})
 	}
+}
+
+func TestIsBalancedBrackets(t *testing.T) {
+	input := "({})[()]"
+	assert.True(t, IsBalanced(input))
 }

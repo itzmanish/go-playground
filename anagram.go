@@ -1,32 +1,31 @@
-package anagram
+package playground
 
 import (
-	"fmt"
 	"strings"
 )
 
-func main() {
-	// given 2 strings as input, string1 and string2. Find anagram of string2 within string1
-	// if there's no possible anagram, print "no possible anagram"
-	// if there's at least one possibility, print array of index of integer
-	// The integers within the array are the index of string1 which is the starting position of the anagram of string2
+// func main() {
+// given 2 strings as input, string1 and string2. Find anagram of string2 within string1
+// if there's no possible anagram, print "no possible anagram"
+// if there's at least one possibility, print array of index of integer
+// The integers within the array are the index of string1 which is the starting position of the anagram of string2
 
-	// example:
-	// string1 := "abcdddd"
-	// string2 := "abcd"
-	// output: [0]
+// example:
+// string1 := "abcdddd"
+// string2 := "abcd"
+// output: [0]
 
-	// string1 := "aba"
-	// string2 := "ab"
-	// output: [0,1]
+// string1 := "aba"
+// string2 := "ab"
+// output: [0,1]
 
-	//string1 := "abcdddd"
-	//string2 := "abcd"
-	string1 := "dabcddd"
-	string2 := "abcd"
-	out := FindAnagram(string1, string2)
-	fmt.Println(out)
-}
+//string1 := "abcdddd"
+//string2 := "abcd"
+// 	string1 := "dabcddd"
+// 	string2 := "abcd"
+// 	out := FindAnagram(string1, string2)
+// 	fmt.Println(out)
+// }
 
 func FindAnagram(s1 string, s2 string) []int {
 	// code here

@@ -1,3 +1,7 @@
+# Playground
+
+**This is playground for some random problem that I face in day to day work or anywhere.**
+
 # Anagram problem
 
 ## Problem Statement
@@ -19,3 +23,7 @@ string1 := "aba"
 string2 := "ab"
 output: [0,1]
 ```
+
+# Balanced Brackets
+
+Balance the given list of brackets.
