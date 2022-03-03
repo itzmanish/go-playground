@@ -41,3 +41,10 @@ func TestIsBalancedBrackets(t *testing.T) {
 	input := "({})[()]"
 	assert.True(t, IsBalanced(input))
 }
+
+func TestCalculateFredoArrayUpdate(t *testing.T) {
+	arr := []int{65, 83, 57, 4, 26, 74, 99, 28, 41, 007, 578}
+	expected := 4
+	result := CalculateFredoArrayUpdate(arr)
+	assert.Equal(t, expected, result)
+}
